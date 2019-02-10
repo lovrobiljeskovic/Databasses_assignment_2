@@ -1,6 +1,7 @@
 # Databasses_assignment_2
 Solution to our second database assignment
 
+This python script connects to a MongoDB and runs the queries on the imported twitter dataset and prints out the results. (I didn't know how to make a query for question number three)
 ## How to run:
 
 prerequisites:
