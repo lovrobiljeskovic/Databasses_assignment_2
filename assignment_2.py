@@ -44,7 +44,7 @@ def user_linking_themost():
         }
     ]))
 
-def most_mentioned_users():
+def most_active_users():
     ppall(db.tweets.aggregate([
         {
         '$group': {
@@ -112,7 +112,7 @@ user_count()
 print("---------")
 user_linking_themost()
 print("---------")
-most_mentioned_users()
+most_active_users()
 print("---------")
 most_negative_tweets()
 print("---------")
